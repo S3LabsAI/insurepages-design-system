@@ -1,0 +1,47 @@
+<!-- @dsCard height=300 -->
+<!doctype html>
+<html><head><style>
+  html,body{margin:0;background:var(--cream)}
+  .cover{position:relative;width:960px;height:300px;overflow:hidden;background:var(--cream)}
+  svg{position:absolute;left:0;top:0}
+  .red{fill:var(--red)} .yellow{fill:var(--yellow)} .lav{fill:var(--lavender)}
+  .green{fill:var(--green)} .blue{fill:var(--blue)} .ink{fill:var(--ink)} .white{fill:var(--white)}
+  .edge{stroke:var(--ink);stroke-width:2}
+  .card{rx:var(--radius-card)} .tag{rx:var(--radius-tag)} .hl{rx:var(--radius-highlight)}
+  .text{position:absolute;left:40px;bottom:36px;max-width:880px}
+  .name{font-family:"Unbounded",sans-serif;font-weight:700;font-size:64px;line-height:.95;letter-spacing:-0.03em;color:var(--ink);margin:0}
+  .tag-line{font-family:"Plus Jakarta Sans",system-ui,sans-serif;font-size:14px;font-weight:500;color:var(--muted);margin:12px 0 0;max-width:440px}
+</style></head><body>
+<div class="cover">
+  <!-- blocks: red slab 300x88 (radius-card), yellow 180x88 (radius-highlight), lavender 140x88 (radius-tag), green disc 88, blue bleeding right; ink hard shadows offset 6px (shadow-card)
+       arrangement: top band, a strip of unequal blocks with two tilted ±2deg like the hero stickers, the last bleeding off the right edge
+       pattern row: soft, friendly, large radii plus "hard offset shadows, no blur": every block casts the ink sticker shadow; three small pills ride the band
+       scales: radius-card 24, radius-highlight 20, radius-tag 8, radius-pill; space-gap-md 18 between blocks, space-container-x 40 inset -->
+  <svg width="960" height="140" viewBox="0 0 960 140" aria-hidden="true">
+    <rect class="ink card" x="46" y="30" width="300" height="88"/>
+    <rect class="red card edge" x="40" y="24" width="300" height="88"/>
+    <g transform="rotate(-2 448 68)">
+      <rect class="ink hl" x="364" y="30" width="180" height="88"/>
+      <rect class="yellow hl edge" x="358" y="24" width="180" height="88"/>
+    </g>
+    <rect class="ink tag" x="562" y="30" width="140" height="88"/>
+    <rect class="lav tag edge" x="556" y="24" width="140" height="88"/>
+    <circle class="ink" cx="768" cy="74" r="44"/>
+    <circle class="green edge" cx="762" cy="68" r="44"/>
+    <g transform="rotate(2 900 68)">
+      <rect class="ink card" x="830" y="30" width="200" height="88"/>
+      <rect class="blue card edge" x="824" y="24" width="200" height="88"/>
+    </g>
+    <rect class="ink" x="73" y="47" width="120" height="36" rx="18"/>
+    <rect class="white edge" x="70" y="44" width="120" height="36" rx="18"/>
+    <rect class="ink" x="383" y="85" width="90" height="28" rx="14"/>
+    <rect class="ink edge" x="380" y="82" width="90" height="28" rx="14"/>
+    <rect class="ink" x="583" y="47" width="70" height="28" rx="14"/>
+    <rect class="white edge" x="580" y="44" width="70" height="28" rx="14"/>
+  </svg>
+  <div class="text">
+    <h1 class="name">InsurePages</h1>
+    <p class="tag-line">Websites for insurance agents, live in days, accessible by default.</p>
+  </div>
+</div>
+</body></html>

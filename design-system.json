@@ -1,0 +1,63 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-21T19:58:00Z"
+  },
+  "title": "InsurePages",
+  "namespace": "InsurePages",
+  "libraries": [],
+  "sections": {},
+  "groups": [
+    "Logos"
+  ],
+  "assetGroups": {
+    "Logos": {
+      "name": "Logos",
+      "tile": "l",
+      "order": [
+        "insurepages-logo.png",
+        "insurepages-logo-dark.png",
+        "insurepages-logo-master.png",
+        "favicon.svg"
+      ],
+      "files": {
+        "insurepages-logo.png": {
+          "name": "insurepages-logo.png",
+          "blob": "b185d42ed8e0d2f74cfdae4846e85a9f",
+          "size": 12173,
+          "type": "image/png"
+        },
+        "insurepages-logo-dark.png": {
+          "name": "insurepages-logo-dark.png",
+          "blob": "54cd535398c9b8b707164a966628061b",
+          "size": 9356,
+          "type": "image/png"
+        },
+        "insurepages-logo-master.png": {
+          "name": "insurepages-logo-master.png",
+          "blob": "0aa02f493293a5a7aaf7b1f57a51600f",
+          "size": 70662,
+          "type": "image/png"
+        },
+        "favicon.svg": {
+          "name": "favicon.svg",
+          "blob": "3c5e53beb2431e985995728974b6e867",
+          "size": 308,
+          "type": "image/svg+xml"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": {
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Tom Panos",
+    "at": "2026-11-21T19:58:00Z",
+    "via": "GitHub · S3LabsAI/insure-pages@b4ed521",
+    "note": "First sync: 12 colors, 14 type styles, 2 fonts, spacing/radius/shadow, 4 logo files, 3 primitive components"
+  }
+}
